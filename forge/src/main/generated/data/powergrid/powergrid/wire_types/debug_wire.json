@@ -1,0 +1,13 @@
+{
+  "colorable": false,
+  "cord": false,
+  "horizontalCoefficient": 1.01,
+  "itemsPerMeter": 0.5,
+  "maximumCurrent": 800000.0,
+  "maximumLength": 640.0,
+  "resistancePerItem": 0.000015,
+  "texture": "powergrid:textures/special/debug_wire.png",
+  "thermalMass": 1.0,
+  "verticalCoefficient": 1.2,
+  "wireThickness": 0.0625
+}

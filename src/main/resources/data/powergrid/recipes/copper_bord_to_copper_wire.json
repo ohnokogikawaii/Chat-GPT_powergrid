@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":[
+    {
+      "item": "create:copper_sheet"
+    },
+    {
+      "item": "create:copper_sheet"
+    }
+    ],
+  "result": {
+    "item": "powergrid:wire",
+    "count": 8
+  }
+
+}

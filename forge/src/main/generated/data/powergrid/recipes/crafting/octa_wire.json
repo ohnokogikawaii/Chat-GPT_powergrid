@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":[
+    {
+      "item": "powergrid:quad_wire"
+    },
+    {
+      "item": "powergrid:quad_wire"
+    }
+  ],
+  "result": {
+    "item": "powergrid:octa_wire",
+    "count": 1
+  }
+
+}

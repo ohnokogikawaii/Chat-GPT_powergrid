@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#&#",
+    "#$#",
+    "#&#"
+  ],
+  "key": {
+    "#": {
+      "item": "powergrid:wire"
+    },
+    "$": {
+      "item": "create:iron_sheet"
+    },
+    "&": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "powergrid:chunk_loader",
+    "count": 2
+  }
+}

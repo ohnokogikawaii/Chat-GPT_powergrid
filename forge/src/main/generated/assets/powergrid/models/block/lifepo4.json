@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "powergrid:block/battery/lifepo4_top",
+    "side": "powergrid:block/battery/lifepo4_side"
+  }
+}

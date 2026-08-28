@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":[
+    {
+      "item": "powergrid:wire"
+    },
+    {
+      "item": "powergrid:wire"
+    }
+  ],
+  "result": {
+    "item": "powergrid:double_wire",
+    "count": 1
+  }
+
+}

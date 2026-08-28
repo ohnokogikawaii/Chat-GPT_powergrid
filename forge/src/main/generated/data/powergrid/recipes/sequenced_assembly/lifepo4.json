@@ -1,0 +1,169 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "powergrid:battery"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item":"powergrid:lifepo4"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "powergrid:incomplete_battery"
+        },
+        {
+          "item": "powergrid:battery"
+        }
+      ],
+      "results": [
+        {
+          "item": "powergrid:incomplete_battery"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "powergrid:incomplete_battery"
+        },
+        {
+          "tag": "forge:plates/copper"
+        }
+      ],
+      "results": [
+        {
+          "item": "powergrid:incomplete_battery"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "powergrid:incomplete_battery"
+        },
+        {
+          "tag": "forge:plates/copper"
+        }
+      ],
+      "results": [
+        {
+          "item": "powergrid:incomplete_battery"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "powergrid:incomplete_battery"
+        },
+        {
+          "item": "powergrid:wire"
+        }
+      ],
+      "results": [
+        {
+          "item": "powergrid:incomplete_battery"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "powergrid:incomplete_battery"
+        },
+        {
+          "item": "powergrid:wire"
+        }
+      ],
+      "results": [
+        {
+          "item": "powergrid:incomplete_battery"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "powergrid:incomplete_battery"
+        }
+      ],
+      "results": [
+        {
+          "item": "powergrid:incomplete_battery"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "powergrid:incomplete_battery"
+        }
+      ],
+      "results": [
+        {
+          "item": "powergrid:incomplete_battery"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "powergrid:incomplete_battery"
+        },
+        {
+          "tag": "forge:nuggets/copper"
+        }
+      ],
+      "results": [
+        {
+          "item": "powergrid:incomplete_battery"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "powergrid:incomplete_battery"
+        },
+        {
+          "tag": "forge:nuggets/copper"
+        }
+      ],
+      "results": [
+        {
+          "item": "powergrid:incomplete_battery"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "powergrid:incomplete_battery"
+        }
+      ],
+      "results": [
+        {
+          "item": "powergrid:incomplete_battery"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "powergrid:incomplete_battery"
+  }
+}

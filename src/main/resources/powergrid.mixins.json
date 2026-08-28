@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "package": "org.patryk3211.powergrid.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8.3",
+  "mixins": [
+    "AirCurrentMixin",
+    "ArmBlockEntityMixin",
+    "BeltDeployerMixin",
+    "BlockStateBaseMixin",
+    "ChuteBlockEntityMixin",
+
+    "FanProcessingMixin",
+    "KineticBlockEntityAccessor",
+    "LevelEntitiesAccessor",
+    "LightningAccessor",
+    "PlayerMixin",
+    "RecipeApplierMixin",
+    "SoundEntryBuilderMixin"
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
